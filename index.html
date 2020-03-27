@@ -10,17 +10,19 @@
 <body>
     <nav>
         <a href="high-scores.html">View high scores</a>
-        <span id="timer" class="timer">Time:</span>
+        <span id="timer" class="timer">Time: <span id="timerValue"></span></span>
     </nav>
     <br> <br>
     <main class="container">
         <div class="h2 text-center font-weight-bold" id="headerText">Coding Quiz Challenge</div>
         <div class="h4 text-center" id="subHeader"></div>
-        <div class="h3 font-weight-bold" id="question"></div>
-        <div id="userAnswer"><button class="btn btn-primary justify-self-center">Start</button></div>
+        <div class="h3 font-weight-bold" id="quizQuestion"></div>
+        <div id="quizAnswer" ></div>
+        <div id="quizAnswer2" ><button id= "startButton2" class="btn btn-primary justify-self-center">Start</button></div>
         <hr>
         <div id="questionResult"></div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./assets/main.js"></script>
 </body>
 </html>
